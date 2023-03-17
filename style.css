@@ -58,3 +58,24 @@ button{
     width: 80px;
     margin-bottom: 5px;
 }
+@media screen and (max-width:600px){
+    .morpion{
+        height: 200px;
+        width: 200px;
+        left : 30%;
+        font-size: 40px;
+    }
+    .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9{
+        width: 100px;
+        height: 100px;
+        background-color: #283048; 
+        text-align: center;
+        padding-top: 25px;
+    }
+}
+@media screen and (max-width:424px){
+    .morpion{
+        font-size: 40px;
+        left:19vw;
+    }
+}
